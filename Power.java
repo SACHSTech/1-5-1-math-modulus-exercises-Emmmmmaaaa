@@ -1,13 +1,20 @@
 class Power extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * let you enter two numbers and will power them 
+  * @author: Emma Chan
   */
   
   public void run() {
     
-    // start coding here
+    // define veriables
+    double intA = readInt( "Value of A: "); 
+    double intB = readInt ("Value of B: "); 
+
+    //compute 
+    double answer = Math.pow(intA, intB);
+
+    System.out.println ("The answer is: " + answer);
     
   }
 }
